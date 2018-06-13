@@ -2,7 +2,7 @@
 # Very light code, 2kb and 500 lines of code
  
   
-## Air2.js Components
+## Air2.js COMPONENTS
 
 ```js
 import air2 from './air2.js';
