@@ -1,6 +1,7 @@
 # Light weight UI library
 # Very light code, 2kb and 500 lines of code
- 
+
+
   
 ## COMPONENT
 
@@ -26,22 +27,8 @@ air2.render('homepage', variables, events,  `
 `);
 ```
 
-## ROUTING
 
-```js
-import air2 from './air2.js';
-
-var routes = {
-  "home": home.js,
-  "product": product.js,
-  "aboutus": aboutus.js
-}
-
-air2.route (routes);
-
-```
-
-## PUBLISH
+## ROUTING & PUBLISH
 
 ```js
 import air2 from './air2.js';
@@ -49,5 +36,10 @@ import air2 from './air2.js';
 air2.render(rootElement, `
   <div>Home Page</div>
   <homepage />
+  <routes>
+     <route path="home"><homepage /></route>
+     <route path="products"><products /></route>
+     <route path="aboutus"><aboutus /></route>
+  </routes>
 `);
 ```
