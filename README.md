@@ -2,7 +2,7 @@
 # Very light code, 2kb and 500 lines of code
  
   
-## Air2.js COMPONENTS
+## product.js COMPONENT
 
 ```js
 import air2 from './air2.js';
@@ -26,12 +26,12 @@ air2.render('homepage', variables, events,  `
 `);
 ```
 
-## Air2.js USAGE
+## home.js PUBLISH
 
 ```js
 import air2 from './air2.js';
 
-air2.render('homepage', `
+air2.render(rootElement, `
   <div>Home Page</div>
   <homepage />
 `);
