@@ -35,11 +35,12 @@ import air2 from './air2.js';
 
 air2.render(rootElement, `
   <div>Home Page</div>
-  <homepage />
+  <header />
   <routes>
      <route path="home"><homepage /></route>
      <route path="products"><products /></route>
      <route path="aboutus"><aboutus /></route>
   </routes>
+  <footer />
 `);
 ```
