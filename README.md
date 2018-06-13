@@ -16,7 +16,7 @@ var events = {
   data: []
 }
 
-air2.createComponent('homepage', variables, events,  `
+air2.render('homepage', variables, events,  `
   <div>Our Products</div>
   <ul>
      events.data.map((item, i) => {
