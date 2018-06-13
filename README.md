@@ -8,19 +8,19 @@
 ```js
 import air2 from './air2.js';
 
-air2.variables = {
+var variables = {
   isLoading: false,
   lists: ['mango', 'pineapple', 'apple']
 }
 
-air2.events = {
+var events = {
   data: []
 }
 
-air2.createComponent('homepage', `
+air2.createComponent('homepage', variables, events,  `
   <div>Home Page</div>
   <ul>
-     air2.data.map((item, i) => {
+     events.data.map((item, i) => {
         <li>{item.name}</li>
      })
   </ul>
