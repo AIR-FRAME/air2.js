@@ -9,9 +9,11 @@
 import air2 from './air2.js';
 
 air2.createComponent('homepage', 
+```
 `
   ```html
   <div>Home Page</div>
   ```
+  ```js
 `);
 ```
