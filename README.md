@@ -20,9 +20,9 @@ air2.events = {
 air2.createComponent('homepage', `
   <div>Home Page</div>
   <ul>
-  air2.data.map((item, i) => {
-     <li>{item.name}</li>
-  })
+     air2.data.map((item, i) => {
+        <li>{item.name}</li>
+     })
   </ul>
 `);
 
