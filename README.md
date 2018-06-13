@@ -1,6 +1,4 @@
-# Light weight UI library
-# Very light code, 2kb and 500 lines of code
-
+# Ultra Light weight UI library, very light code (2kb)
 
   
 ## COMPONENT
