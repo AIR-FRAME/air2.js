@@ -2,7 +2,7 @@
 # Very light code, 2kb and 500 lines of code
  
   
-## product.js COMPONENT
+## COMPONENT
 
 ```js
 import air2 from './air2.js';
@@ -26,7 +26,22 @@ air2.render('homepage', variables, events,  `
 `);
 ```
 
-## home.js PUBLISH
+## ROUTING
+
+```js
+import air2 from './air2.js';
+
+var routes = {
+  "home": home.js,
+  "product": product.js,
+  "aboutus": aboutus.js
+}
+
+air2.route (routes);
+
+```
+
+## PUBLISH
 
 ```js
 import air2 from './air2.js';
