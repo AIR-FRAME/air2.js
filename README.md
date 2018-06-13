@@ -3,8 +3,6 @@
  
 ## Air2.js USAGE
 
-### TRIGGER FROM COMPONENT A
-
 ```js
 import air2 from './air2.js';
 
