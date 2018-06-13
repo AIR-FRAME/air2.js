@@ -8,12 +8,7 @@
 ```js
 import air2 from './air2.js';
 
-air2.createComponent('homepage', 
-```
-`
-  ```html
+air2.createComponent('homepage', `
   <div>Home Page</div>
-  ```
-  ```js
 `);
 ```
