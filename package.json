@@ -1,0 +1,20 @@
+{
+  "name": "air2.js",
+  "description": "Light weight framework",
+  "version": "1.0.0",
+  "main": "air2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AIR-FRAME/air2.js.git"
+  },
+  "keywords": ["framework", "ui", "components", "multiple", "reactjs", "react", "javascript"],
+  "author": "Bobby Thomas (bobtxt@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AIR-FRAME/air2.js/issues"
+  },
+  "homepage": "https://github.com/AIR-FRAME"
+}
