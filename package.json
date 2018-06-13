@@ -1,6 +1,6 @@
 {
   "name": "air2.js",
-  "description": "Light weight framework",
+  "description": "Light weight UI framework",
   "version": "1.0.0",
   "main": "air2.js",
   "scripts": {
