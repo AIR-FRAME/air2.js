@@ -26,7 +26,7 @@ air2.render('homepage', variables, events,  `
 ```
 
 
-## ROUTING & PUBLISH
+## ROUTING & PUBLISHING
 
 ```js
 import air2 from './air2.js';
